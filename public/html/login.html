@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+        * {
+
+            font-family: 'Rubik', sans-serif;
+            text-shadow: 0.5px 0.5px 0.5px 0.5px rgba(20, 20, 20, 0.822)
+        }
+
+        .wrapper {
+            padding-top: 30px;
+            width: 700px;
+            border-style: solid;
+            height: 300px;
+            text-align: center;
+            transform: translateX(-50%);
+            margin-left: 50%;
+        }
+
+        #emailField,
+        #passwordField {
+            border-color: #cfcfcf75;
+            border-width: 0.1px;
+            border-radius: 2.5px;
+            height: 32px;
+            width: 400px;
+            font-size: 14px;
+            -moz-box-shadow: inset 0 0 1px #000000;
+            -webkit-box-shadow: inset 0 0 1px #000000;
+            box-shadow: inset 0 0 1px #000000;
+            outline: 0;
+        }
+
+        #emailField:focus,
+        #passwordField:focus {
+            -moz-box-shadow: inset 0 0 2px #000000;
+            -webkit-box-shadow: inset 0 0 2px #000000;
+            box-shadow: inset 0 0 2px #000000;
+        }
+
+
+        .labelInfo {
+            position: absolute;
+            color: rgb(122, 122, 122);
+            width: 90px;
+            padding-top: 5px;
+            left: 10;
+            height: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #loginLabel {
+            color: rgb(102, 255, 102);
+            font-size: 45px;
+            font-weight: lighter;
+        }
+
+        .section {
+            padding-top: 20px;
+            padding-left: 270px;
+            width: 300px;
+            text-align: left;
+        }
+
+        .submitBtn {
+            padding: 8px 8px 8px 8px;
+            background-color: #5edd63;
+            color: rgb(250, 250, 250);
+            font-weight: bold;
+            width: 130px;
+            height: 40px;
+            border: 0;
+            border-radius: 2px;
+            font-size: 20px;
+        }
+
+        .submitBtn:hover {
+            opacity: .75;
+            font-size: 19.5px;
+            transition: .3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <span id="loginLabel">LOGIN FORM</span>
+        <form action="http://127.0.0.1:8081/login" method="get">
+            <div class="section">
+                <span class="labelInfo"> Email </span> <input id="emailField" name="email" type="email" placeholder=" Email">
+            </div>
+            <div class="section">
+                <span class="labelInfo"> Password </span> <input id="passwordField" name="password" type="password"
+                    placeholder=" Password">
+            </div>
+            <div class="section">
+                <button class="submitBtn">
+                    SUBMIT
+                </button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

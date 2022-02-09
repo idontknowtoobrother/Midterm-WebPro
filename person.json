@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Harry Potter",
+        "age": 17,
+        "member": "Yes",
+        "movie": "Harry Potter",
+        "email": "thia@gmail.com",
+        "password": "@123654ww"
+    }, {
+        "id": 2,
+        "name": "Anna Lee",
+        "age": 25,
+        "member": "No",
+        "movie": "Lode",
+        "email": "Anna@gmail.com",
+        "password": "@1236ww"
+    }, {
+        "id": 3,
+        "name": "Virap Chuen",
+        "age": 22,
+        "member": "Yes",
+        "movie": "Shang-Shi",
+        "email": "Virap@gmail.com",
+        "password": "0258.Xy"
+    }, {
+        "id": 4,
+        "name": "Saksarak Tee",
+        "age": 19,
+        "member": "No",
+        "movie": "Hitman",
+        "email": "Saksarak@gmail.com",
+        "password": "858x$5"
+    }, {
+        "id": 5,
+        "name": "John Olsen",
+        "age": 26,
+        "member": "No",
+        "movie": "Batman",
+        "email": "JohnOl@gmail.com",
+        "password": "588Xs9@dv$"
+    }, {
+        "id": 6,
+        "name": "Lee Anna",
+        "age": 25,
+        "member": "Yes",
+        "movie": "Doctor Strange",
+        "email": "LeeAnna@gmail.com",
+        "password": "8522@e4Xc5-"
+    }, {
+        "id": 7,
+        "name": "Pirot Chim",
+        "age": 22,
+        "member": "Yes",
+        "movie": "Avengers",
+        "email": "Pirot@gmail.com",
+        "password": "PPo$0-w0"
+    }, {
+        "id": 8,
+        "name": "Jakkrit Hex",
+        "age": 21,
+        "member": "Yes",
+        "movie": "Mr.Robot",
+        "email": "grimJ@gmail.com",
+        "password": "585--.Z"
+    }, {
+        "id": 9,
+        "name": "Saksit Vans",
+        "age": 25,
+        "member": "No",
+        "movie": "Lode",
+        "email": "SaksitVans@gmail.com",
+        "password": "789456123.."
+    }, {
+        "id": 10,
+        "name": "Jimmy Butler",
+        "age": 23,
+        "member": "No",
+        "movie": "Home Sweet Home",
+        "email": "JimmyB@gmail.com",
+        "password": "123456@Jb"
+    }
+]
